@@ -1,0 +1,306 @@
+* {
+    color: ghostwhite!important;
+
+}
+a{
+    text-decoration: none;
+/*    color:ghostwhite;*/
+}
+a:hover{
+/*    color:ghostwhite;*/
+}
+
+.container-fluid.main {
+    background-color: #333;
+}
+
+.navbar {
+    background-color: #222;
+    border-bottom: solid 2px #d9523a;
+
+}
+
+.navbar-brand img {
+}
+
+.navbar i {
+    font-size: 25px;
+    margin: 5px;
+    color: ghostwhite;
+}
+
+.nav-item {}
+
+.form-control-lg {}
+
+.searchBar {
+    width: 100%;
+}
+
+.searchBar button {
+    /* border: solid 1px #1ec2b9;
+    margin-left: 5px;
+    color: #1ec2b9;*/
+
+    border: solid 2px #d9523a;
+    color: #d9523a;
+    border-radius: 0px;
+    margin-left: 5px;
+}
+
+.searchBar input, input {
+    background-color: transparent;
+    border: solid 2px ghostwhite;
+    border-radius: 0px;
+}
+.searchBar input:focus{
+    background-color: transparent;
+}
+
+.form-group input{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: solid 2px ghostwhite;
+    border-radius: 0px;
+    
+}
+.form-group input:focus{
+    background-color: transparent;
+}
+.form-group .submit{
+    border: solid 2px #d9523a;
+    color: #d9523a;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0px;
+    
+}
+.form-group .submit:hover{
+        background-color: #d9523a;
+        transition: 0.25s;
+}
+.form-group input.checkbox{
+    margin: 0 20px;
+    height: 20px;
+    width:20px;
+
+}
+.form-group input.checkbox:checked{
+/*    background-color: #d9523a;*/
+
+}
+
+.godzina button{
+    background-color: orange;
+    color:black;
+    
+}
+}
+label{
+    padding: 10px;
+}
+
+
+
+.categories-section {
+}
+
+
+.categories {
+    margin 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.option {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    background-color: ghostwhite;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid 2px ghostwhite;
+
+}
+
+.main i.fas {
+    font-size: 200%;
+    color: #d9523a !important;
+    margin-top: 25%;
+
+}
+
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+
+.newest {
+    background-color: #222;
+}
+
+
+
+/*
+.newest .box {
+    width: 300px;
+    margin: 20px 20px;
+    background-color: grey;
+
+}
+*/
+/*
+.newest img{
+    width: 270px;
+    margin: 0;
+    padding: 0;
+}
+*/
+.newest p{
+    margin:10px;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    border-top: solid 2px #d9523a;
+
+}
+
+footer i {
+    font-size: 25px;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+
+
+
+
+.nav-item i:hover,
+footer i:hover {
+    color: #d9523a !important;
+    transition: 0.25s;
+}
+
+.option:hover {
+    background-color: transparent;
+    border: solid 2px ghostwhite;
+    transition: 0.25s;
+}
+
+.searchBar button:hover {
+    color: ghostwhite;
+    background-color: #d9523a ;
+}
+
+
+
+.login-container, .basket, .account{
+    height: 80vh;
+}
+
+.login input, .logout{
+        background-color: rgba(0, 0, 0, 0.3);
+    
+}
+
+
+
+
+.login button {
+    border: solid 2px #d9523a;
+    color: #d9523a;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0px;
+    margin-left: 5px;
+    
+}
+.login button:hover{
+        background-color: #d9523a;
+        transition: 0.25s;
+}
+
+.account h1, .registration-container h1{
+    padding-top:30px;
+}
+
+.errortext{
+    color:red !important;
+    margin:20px 0;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .categories {
+        padding: 0 10%;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .registration{
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media (min-width: 768px) {
+    .searchBar {
+        width: 35%;
+    }
+.registration{
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 576px) {
+/*
+    .newest .box {
+
+        width: 250px;
+    }
+*/
+/*
+    .newest img{
+        width: 220px;
+    }
+*/
+
+
+}
+@media (min-width: 1200px) {
+/*
+.newest .box {
+
+        width: 400px;
+    }
+*/
+/*
+    .newest img{
+        width: 360px;
+    }
+*/
+}
+
+
+
